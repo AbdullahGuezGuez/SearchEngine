@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t2l0wqZpgalOMLBjyYYnsTNiMTthuz9TByX8hbtq6wFNqj7QnN6uVE0EEzQqdT2shBZAMTKsRCYJfHes+2Tl/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abdullah\\Desktop\\SearchEngine\\SearchEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abdullah\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
