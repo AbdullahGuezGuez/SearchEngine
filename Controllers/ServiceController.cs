@@ -6,7 +6,6 @@ using Geolocation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SearchEngine.App_Data;
 using SearchEngine.Dtos;
 using SearchEngine.Models;
 
