@@ -23,7 +23,7 @@ namespace SearchEngine.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetSearchedServicesAsync([FromQuery] string name, [FromQuery] double lat, [FromQuery] double lng)
+        public ActionResult GetSearchedServices([FromQuery] string name, [FromQuery] double lat, [FromQuery] double lng)
         {
             SearchServiceDto sSDto = new SearchServiceDto { Name = name, Position = new Position { Lat = lat, Lng = lng } };
             SearchResultDto searchResult = new SearchResultDto(); 
