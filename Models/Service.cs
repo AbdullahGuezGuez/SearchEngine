@@ -8,17 +8,12 @@ namespace SearchEngine.Models
     public class Service
     {
 
-
-        public int id { get; set; }
-        public string name { get; set; }
-        public Position position { get; set; }
-        public class Position
-        {
-            public double lat { get; set; }
-            public double lng { get; set; }
-        }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Position Position { get; set; }
 
     }
+
 
 
 }
